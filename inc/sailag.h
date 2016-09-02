@@ -202,6 +202,7 @@ typedef struct _sai_lag_api_t
    sai_remove_lag_member_fn         remove_lag_member;
    sai_set_lag_member_attribute_fn  set_lag_member_attribute;
    sai_get_lag_member_attribute_fn  get_lag_member_attribute;
+   /*some new API*/
 } sai_lag_api_t;
 
 /**
